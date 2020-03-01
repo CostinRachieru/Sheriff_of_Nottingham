@@ -1,0 +1,35 @@
+// Copyright 2019 Rachieru Costin Tudor <<costinrch46@gmail.com>>
+
+	Nume: Rachieru
+	Prenume: Costin Tudor
+	Grupa: 324
+	Serie: CA
+
+	Data inceperii temei: 19-10-2019
+	Data finalizarii temei: 10-11-2019
+
+
+	OBJECTIVE
+		Use object oriented programming techniques in the
+	implementation of a boardgame based game.
+		The program should be easy to read and have an
+	obvious logic.
+
+
+	IMPLEMENTATION
+		I am using an already implemented read/write method.
+		All the logic in the game is implemented in the
+	Game.SheriffOfNottingham function. The name of the functions are
+	chosen to be self-explanatory and there are comments through-out
+	the code to explain what is happening.
+		For the players type i chose to use a super class Player
+	and extend it with every type of player: Basic, Greedy and Bribed;
+	and override the specific actions for them.
+		The GoodFactory SingleTone is perfectly placed in this
+	implementation, because we only need to have one good factory instance.
+		I am also using a Constants class for all the constants i
+	need to use.
+		I did not focus on efficiency. Instead i wanted to write a
+	more readable and scalable code.
+
+
